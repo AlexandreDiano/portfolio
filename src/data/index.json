@@ -1,0 +1,188 @@
+{
+  "presentation": "<b>Hello! <br /></b> I'm a <b>Developer</b> focused in web apps. I love innovations, to create new things and <b>help the whole world.</b> I really like technology and <b>Artificial Intelligence</b>, I wish to work around these skills, to collaborate with the scientific community and find out new and incredible things.",
+  "aboutMe": " I always loved technology but it wasn’t until 2018 that I started programming when I got in a SENAI’s system development course and found it quite interesting. I've concluded it by 2019 and then started  <b>Physics Bachelor graduation in UFPR.</b> I always liked STEM, but I came to realize my true love for codding at the first semester, and after that, I changed my graduation for  <b>System Analysis and Development</b> (also at UFPR), even though my love for physics still lives on and for that, I still want to keep in touch with this part of science. Meanwhile, until I finish my current graduation, my focus isn’t on physics, but I keep my eyes on it so I can stay up to date with the development of the area.  <b>I really enjoy Web Development</b>, but recently I've started studying about IoT and I've grown taste for it. <br /> <br /> <p> Ops, before I forget, I also got a taste about Design and currently i'm learning more and more about this awesome area. </p> <br /> <p> That's what I have to say for now, and if you have any doubt you can call me... Hope we'll be in touch soon </p>",
+  "knowledge": [
+    {
+      "title": "Typescript",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+    },
+    {
+      "title": "Javascript",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+    },
+    {
+      "title": "ReactJS",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+    },
+    {
+      "title": "NextJS",
+      "url": "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+    },
+    {
+      "title": "Python",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+    },
+    {
+      "title": "OpenCV",
+      "url": "https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg"
+    },
+    {
+      "title": "C",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+    },
+    {
+      "title": "C++",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+    },
+    {
+      "title": "CSS",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+    },
+    {
+      "title": "HTML",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+    },
+    {
+      "title": "DJango",
+      "url": "https://cdn.worldvectorlogo.com/logos/django.svg"
+    },
+    {
+      "title": "Flask",
+      "url": "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
+    },
+    {
+      "title": "Docker",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+    },
+    {
+      "title": "GoLang",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg"
+    },
+    {
+      "title": "GraphQL",
+      "url": "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg"
+    },
+    {
+      "title": "Jest",
+      "url": "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+    },
+    {
+      "title": "Cypress",
+      "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg"
+    },
+    {
+      "title": "React Native",
+      "url": "https://reactnative.dev/img/header_logo.svg"
+    },
+    {
+      "title": "PostgreSQL",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+    },
+    {
+      "title": "MySQL",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+    },
+    {
+      "title": "MongoDB",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+    },
+    {
+      "title": "NestJS",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg"
+    },
+    {
+      "title": "NodeJS",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+    },
+    {
+      "title": "Express",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+    },
+    {
+      "title": "Rails",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg"
+    },
+    {
+      "title": "Redux",
+      "url": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+    },
+    {
+      "title": "Firebase",
+      "url": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+    },
+    {
+      "title": "Arduino",
+      "url": "https://cdn.worldvectorlogo.com/logos/arduino-1.svg"
+    },
+    {
+      "title": "PyTorch",
+      "url": "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
+    },
+    {
+      "title": "Postman",
+      "url": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+    },
+    {
+      "title": "Figma",
+      "url": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+    },
+    {
+      "title": "Illustrator",
+      "url": ""
+    },
+    {
+      "title": "Blender",
+      "url": ""
+    },
+    {
+      "title": "Photoshop",
+      "url": ""
+    },
+    {
+      "title": "Affinity",
+      "url": ""
+    },
+    {
+      "title": "Spline",
+      "url": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "Projeto #01 - Chat",
+      "description": "A simple real-time chat using WebSocket",
+      "techs": "Typescript | ReactJS | Express",
+      "url": ""
+    },
+    {
+      "title": "Projeto #02 - Spotify Clone",
+      "description": "Just a Spotify Clone, maybe with Spotify API",
+      "techs": "Typescript | ReactJS | Express",
+      "url": ""
+    },
+    {
+      "title": "Projeto #03 - LetterBox",
+      "description": "Just a app like a LetterBox for my own use",
+      "techs": "Typescript | ReactJS | Express",
+      "url": ""
+    },
+    {
+      "title": "Projeto #04 - Weather App",
+      "description": "My own Weather App using api.met.no",
+      "techs": "Typescript | ReactJS | Express",
+      "url": ""
+    },
+    {
+      "title": "Projeto #05 - RU Bot",
+      "description": "A bot to tell me what the menu will be at my college restaurant",
+      "techs": "Typescript | ReactJS | Express",
+      "url": ""
+    },
+    {
+      "title": "Projeto #06 - Investment Simulator",
+      "description": "A Website to Simulate Investments and how much you will 'won'",
+      "techs": "Typescript | ReactJS | Express",
+      "url": ""
+    }
+  ]
+}
