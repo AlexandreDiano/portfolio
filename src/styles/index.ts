@@ -15,12 +15,20 @@ export const GlobalStyle = createGlobalStyle`
     color: #FCFC62;
     font-weight: bold;
     font-size: 40px;
+
+    @media (max-width: 414px) {
+      font-size: 30px;
+    }
   }
 
   p {
     color: #FFF;
     font-weight: lighter;
     font-size: 35px;
+
+    @media (max-width: 414px) {
+      font-size: 25px;
+    }
   }
 
   html {

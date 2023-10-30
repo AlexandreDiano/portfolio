@@ -10,6 +10,10 @@ export const Container = styled.div`
 
   padding: 20px 50px;
   color: white;
+
+  @media (max-width: 414px) {
+    padding: 5px;
+  }
 `;
 
 export const ProjectWrapper = styled.div`
@@ -22,6 +26,16 @@ export const ProjectWrapper = styled.div`
     display: flex;
     flex-direction: row-reverse;
   }
+
+  @media (max-width: 810px) {
+    flex-direction: column;
+    &:nth-child(even) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    padding: 20px 0;
+  }
 `;
 
 export const ProjectImage = styled.img`
@@ -31,6 +45,11 @@ export const ProjectImage = styled.img`
 
   border-radius: 10px;
   margin: 30px 40px;
+
+  @media (max-width: 414px) {
+    width: 250px;
+    height: 150px;
+  }
 `;
 
 export const ProjectDescription = styled.div`
@@ -44,7 +63,7 @@ export const ProjectDescription = styled.div`
     font-style: italic;
     font-weight: 900;
     text-align: center;
-    max-width: 400px;
+    max-width: 100%;
     flex-wrap: wrap;
   }
 `;

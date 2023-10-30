@@ -10,4 +10,5 @@ export const Header = styled.div`
   font-size: 50px;
   font-weight: 800;
   font-style: italic;
+  text-align: center;
 `;

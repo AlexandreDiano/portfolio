@@ -12,6 +12,15 @@ export const Container = styled.div`
   color: white;
 
   overflow: hidden;
+
+  @media (max-width: 1280px) {
+    justify-content: start;
+  }
+
+  @media (max-width: 414px) {
+    height: 100%;
+    padding: 20px;
+  }
 `;
 
 export const Content = styled.div`

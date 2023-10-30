@@ -7,7 +7,7 @@ import {
 } from './style';
 import { BsArrowBarLeft, BsArrowBarRight } from 'react-icons/bs';
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface IKnowledgeProps {
   title: string;
@@ -19,6 +19,21 @@ interface IProps {
 }
 
 export const Caroussel = ({ knowledge }: IProps) => {
+  const [width, setWidth] = useState<number>(window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+      window.removeEventListener('resize', handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 414;
+
   const chunkSize = 6;
   const [startIndex, setStartIndex] = useState(0);
 
@@ -36,18 +51,20 @@ export const Caroussel = ({ knowledge }: IProps) => {
 
   const visibleTechs = knowledge.slice(startIndex, startIndex + chunkSize);
 
-  console.log(startIndex);
-
-  return (
-    <Container>
-      <motion.div
-        animate={{ x: [0, -70, 0] }}
-        transition={{
+  const attributes = !isMobile
+    ? {
+        animate: { x: [0, -70, 0] },
+        transition: {
           ease: 'easeInOut',
           duration: 4,
           repeat: Infinity,
-        }}
-      >
+        },
+      }
+    : '';
+
+  return (
+    <Container>
+      <motion.div {...attributes}>
         <Button onClick={handlePrev}>
           <BsArrowBarLeft />
         </Button>
@@ -68,14 +85,7 @@ export const Caroussel = ({ knowledge }: IProps) => {
           </ItemWrapper>
         ))}
       </ContentCaroussel>
-      <motion.div
-        animate={{ x: [0, 70, 0] }}
-        transition={{
-          ease: 'easeInOut',
-          duration: 4,
-          repeat: Infinity,
-        }}
-      >
+      <motion.div {...attributes}>
         <Button onClick={handleNext}>
           <BsArrowBarRight />
         </Button>
